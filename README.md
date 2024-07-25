@@ -1,13 +1,13 @@
 # **Read Me**
-This is an explanation on how to run the code for Socket Programing
-## **Run Instructions**
-- Open a command prompt window and set the current working directory to the project folder. To run the server or client follow one of the instructions below.:
-    ### **Server instructions**
-    - The server should be ran by using the following commands:  
-    ```clang++ server.cpp -o server```  
-    ```./server```
-    - wait for client to connects
-    ### **Client Instructions**
-    - The client should be ran using the following commands:  
-    ```clang++ client.cpp -o client```  
-    ```./client```
+These is some simple socket programs,  
+I will be adding as a learn more.  
+using Beej's Guide to Network Programming as a guide 
+https://beej.us/guide/bgnet/
+
+## Instructions
+to run each progam I use gcc or clang on MacOS  
+
+`clang filename.c -o filename`  
+`gcc filename.c -o filename`  
+
+if running on linux or another unix like operating system the `-lnsl` may be needed
