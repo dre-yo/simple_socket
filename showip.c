@@ -1,6 +1,7 @@
 /*
 Andrew York
 Program that finds ip6 address info
+https://beej.us/guide/bgnet/html/split/system-calls-or-bust.html
 */
 #include <arpa/inet.h>
 #include <netdb.h>
