@@ -11,9 +11,9 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-#define PORT "3490" // the port users will be connecting to
+#define PORT "9090" // the port users will be connecting to
 
-#define BACKLOG 10 // how many pending connections queue will hold
+#define BACKLOG 5 // how many pending connections queue will hold
 
 void sigchld_handler(int s) {
   // waitpid() might overwrite errno, so we save and restore it:
