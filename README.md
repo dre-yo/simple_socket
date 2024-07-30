@@ -5,10 +5,11 @@ using Beej's Guide to Network Programming as a guide
 https://beej.us/guide/bgnet/
 
 ## Instructions
-to run each progam I use gcc or clang on MacOS  
+### ip4info instructions
+to run each progam you can use gcc or clang
 
-`clang filename.c -o filename`  
-`gcc filename.c -o filename`  
+`clang ip4info.c -o ip4info`  
+`gcc ip4info.c -o ip4info`  
 
 if running on linux or another unix like operating system the `-lnsl` may be needed
 
