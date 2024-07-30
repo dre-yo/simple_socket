@@ -18,10 +18,18 @@ to run this program
 `./showip example.com`  
 and the program should return the list of ip addresses associated with the argument
 
-### client-server instructions  
+### TCP instructions  
 it is important that the server is ran first  
 `clang server.c -o server`  
 `./server`  
 to run the client do the following on the client computer  
 `clang client.c -o client`  
-`./client destination-hostname`
+`./client hostname`
+
+### UDP instructions  
+it is important that the listener is ran first  
+`clang listener.c -o listener`  
+`./listener`  
+to run the talker do the following on the client computer  
+`clang talker.c -o talker`  
+`./talker hostname message`
