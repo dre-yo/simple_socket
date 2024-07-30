@@ -82,12 +82,8 @@ void handle_connection(int new_fd, struct sockaddr_storage their_addr) {
             s, sizeof s);
   printf("server: got connection from %s\n", s);
 
-  if (!fork()) {
-    if (send(new_fd, "Hello, world!", 13, 0) == -1) {
-      perror("send");
-    }
-    close(new_fd);
-    exit(0);
+  if (send(new_fd, "Hello, world!", 13, 0) == -1) {
+    perror("send");
   }
   close(new_fd);
 }
