@@ -11,3 +11,17 @@ to run each progam I use gcc or clang on MacOS
 `gcc filename.c -o filename`  
 
 if running on linux or another unix like operating system the `-lnsl` may be needed
+
+### showip instructions  
+to run this program  
+`clang showip.c -o showip`  
+`./showip example.com`  
+and the program should return the list of ip addresses associated with the argument
+
+### client-server instructions  
+it is important that the server is ran first  
+`clang server.c -o server`  
+`./server`  
+to run the client do the following on the client computer  
+`clang client.c -o client`  
+`./client destination-hostname`
