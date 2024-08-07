@@ -1,6 +1,5 @@
 # **Read Me**
 These is some simple socket programs,  
-I will be adding as a learn more.  
 using Beej's Guide to Network Programming as a guide 
 https://beej.us/guide/bgnet/
 
